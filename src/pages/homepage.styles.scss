@@ -1,0 +1,51 @@
+.home {
+    background-color: #222;
+    max-width: 80vw;
+    min-height: 95vh;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+
+    &-title {
+        font-size: 28px;
+        letter-spacing: 10px;
+        font-weight: bold;
+        font-family: Russo;
+        padding: 0 25px;
+        color: #fff;
+        background-color: #0078ba;
+    }
+}
+
+
+.home-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 80px;
+
+    &__user {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__data {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+.total-text {
+    color: #0078ba;
+}
+
+.income-text {
+    color: rgb(65, 161, 89);
+}
+
+.expense-text {
+    color: rgb(129, 48, 48);
+}
